@@ -1,10 +1,10 @@
-# 🏥 DomeLight - Smart Healthcare Nurse Call Node
+# 🏥 FlashLight
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-orange.svg)
 ![Protocol: MQTT](https://img.shields.io/badge/Protocol-MQTT-brightgreen.svg)
 
-DomeLight is an open-source, ESP32-based smart indicator and controller designed for modern hospital Nurse Call Systems (NCS). It integrates multi-protocol communication and physical hardware controls to provide reliable, real-time patient-to-nurse signaling in critical medical environments.
+DomeLight is an open-source, ESP32-based smart indicator and controller designed for modern hospital Systems (NCS). It integrates multi-protocol communication and physical hardware controls to provide reliable, real-time patient-to-nurse signaling in critical medical environments.
 
 ## ✨ Key Features
 
