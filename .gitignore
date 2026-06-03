@@ -1,0 +1,55 @@
+# ==========================================
+# .gitignore for ESP32 / Arduino Projects
+# ==========================================
+
+# 1. Build output and binaries
+build/
+*.bin
+*.elf
+*.hex
+*.uf2
+*.map
+*.a
+*.o
+*.obj
+*.out
+
+# 2. Editor and IDE specific files (VS Code, Arduino IDE 2.x, PlatformIO)
+.vscode/
+.pio/
+*.code-workspace
+.idea/
+.clang-format
+
+# 3. 🚨 Sensitive data and credentials (NEVER upload these)
+# Highly recommended: Keep real credentials in these ignored files,
+# and only provide 'device_cert_template.h' as a placeholder example.
+device_cert.h
+device_key.h
+*.pem
+*.key
+*.crt
+*.cer
+*secret*.h
+*credential*.h
+
+# 4. OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# 5. Archives and backup files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.bak
+*.swp
+*~
+
+# 6. Log files (from local SD card or FFat testing)
+*.log
+system_log.txt
