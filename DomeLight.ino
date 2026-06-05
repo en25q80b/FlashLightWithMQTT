@@ -1,7 +1,7 @@
 /********************************************************************
  * @file DomeLight.ino
- * @author Scott
- * @brief Melten Dome Light Core Firmware
+ * @author En25q80b
+ * @brief Flash Light Core Firmware
  * @version 11.0.0
  * @date 2025-10-22
  * @copyright Copyright (c) 2025
