@@ -1,10 +1,10 @@
-# 🏥 DomeLight - Smart Healthcare Nurse Call Node
+# 🏥 FlashLight - Smart Healthcare Nurse Call Node
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-orange.svg)
 ![Protocol: MQTT](https://img.shields.io/badge/Protocol-MQTT-brightgreen.svg)
 
-DomeLight is an open-source, ESP32-based smart indicator and controller designed for modern hospital Nurse Call Systems (NCS). It integrates multi-protocol communication and physical hardware controls to provide reliable, real-time patient-to-nurse signaling in critical medical environments.
+DomeLight is an open-source, ESP32-based smart indicator and controller designed for  Nurse Call Systems. It integrates multi-protocol communication and physical hardware controls to provide reliable, real-time patient-to-nurse signaling in critical medical environments.
 
 ## ✨ Key Features
 
@@ -40,7 +40,7 @@ The firmware is designed with modularity in mind, separating hardware interrupts
     * Select your ESP32 board in the IDE.
     * Compile and upload the firmware.
 4.  **Initial Setup:**
-    * Upon first boot, the device will host a Wi-Fi Access Point named `DomeLight_Setup`.
+    * Upon first boot, the device will host a Wi-Fi Access Point named `FlashLight_Setup`.
     * Connect to it and navigate to `http://192.168.4.1` to configure your facility's network credentials.
 
 ## 🤖 AI & Open Source Vision
