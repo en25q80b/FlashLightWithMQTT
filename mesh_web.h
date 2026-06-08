@@ -2,7 +2,7 @@ const char HTML_MESH_PAGE[] PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ZoneLamp MESH Settings</title>
+    <title>Flash Light MESH Settings</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
@@ -18,7 +18,7 @@ const char HTML_MESH_PAGE[] PROGMEM = R"rawliteral(
     </style>
 </head>
 <body>
-    <h1>ZoneLamp MESH Settings</h1>
+    <h1>Flash Light MESH Settings</h1>
     <form action="/save_mesh" method="post">
         <h2>1. MESH Mode</h2>
         <input type="radio" id="mesh_enabled" name="mesh_mode" value="1" {{MESH_ENABLED_CHECKED}}>
